@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+}
+
+.content {
+    background-color: white;
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    height: 500px;
+    width: 300px;
+
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.input_content {
+    border: 1px solid #7b8586;
+    width: 90%;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.btn {
+    margin-top: auto;
+}
+
+.btn_content {
+    border: 2px;
+    background-color: #0bd6d6;
+    color: white;
+    width: 250px;
+    height: 30px;
+
+    padding: 5px;
+
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.skeletons {
+    margin: 10px;
+    height: 47px;
+}
+.p_success {
+    font-size: 20px;
+}
+
+.user_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.avatar {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.user_name {
+    margin: 0;
+}
+
+.user_email {
+    margin: 0;
+}
+
+.plus {
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+.plus:hover {
+    opacity: 0.4;
+  }
+
